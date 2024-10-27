@@ -1,0 +1,22 @@
+[
+    {
+        "questionNo": 1,
+        "question": "Do you offer online ordering or delivery?",
+        "answer": "Yes! You can browse and order books online through our website.We also offer delivery options for local and national orders."
+    },
+    {
+        "questionNo": 2,
+        "question": "Can I pre-order upcoming book releases?",
+        "answer": "Absolutely!Just let us know the title and author, and we’ll notify you when it arrives."
+    },
+    {
+        "questionNo": 3,
+        "question": "Do you offer online ordering or delivery?",
+        "answer": "Yes! You can browse and order books online through our website. We also offer delivery options for local and national orders."
+    },
+    {
+        "questionNo":4,
+        "question":"Can I return or exchange a book?",
+        "answer":"Yes, books in new condition can typically be returned within 14 days of purchase with a receipt. Some exceptions may apply for special orders or sale items."
+    }
+]
