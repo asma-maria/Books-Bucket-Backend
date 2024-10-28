@@ -25,7 +25,7 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
-    //await client.connect();
+    await client.connect();
     const database = client.db('booksbucket_db_user');
     const userCollection = database.collection('users');
     const productCollection = database.collection('products');
@@ -132,8 +132,8 @@ async function run() {
         res.send(result)
     })
 
-    //await client.db("admin").command({ ping: 1 });
-    //console.log("Pinged your deployment. You successfully connected to Books Bucket Database!");
+    await client.db("admin").command({ ping: 1 });
+    console.log("Pinged your deployment. You successfully connected to Books Bucket Database!");
   } finally {
 
   }
